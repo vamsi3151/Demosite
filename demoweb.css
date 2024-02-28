@@ -31,7 +31,7 @@ body{
     display: flex;
     justify-content: space-around;
     position: fixed;
-    background-color: blue;
+    background-color: #0071f8;
     border-bottom-left-radius: 30%;
     border-bottom-right-radius: 30%;
     
@@ -81,8 +81,8 @@ body{
 
 }
 .btn:hover{
-    background-color: aqua;
-
+    background-color: rgba(206, 227, 235, 0.637);
+    border-radius: 40%;
 }
 
 .body{
@@ -242,11 +242,15 @@ padding-top: 120px;
     flex-direction: row;
     padding-top: 30px;
 }
+.sub2 h5:hover{
+    color: blue;
+}
+
 .box1{
     width: 200px;
     height: 240px;
     background-color: #e4dfdf;
-    /* border: 1px solid; */
+    border-radius: 20px;
 }
 /* .box1:hover {
     -ms-transform: scale(1.1);
@@ -257,6 +261,7 @@ padding-top: 120px;
     width: 200px;
     height: 240px;
     background-color: #e4dfdf;
+    border-radius: 20px;
 }
 /* .box2:hover {
     -ms-transform: scale(1.1);
@@ -267,6 +272,7 @@ padding-top: 120px;
     width: 200px;
     height: 240px;
     background-color: #e4dfdf;
+    border-radius: 20px;
 }
 /* .box3:hover {
     -ms-transform: scale(1.1);
@@ -277,6 +283,7 @@ padding-top: 120px;
     width: 200px;
     height: 240px;
     background-color: #e4dfdf;
+    border-radius: 20px;
 }
 /* .box4:hover {
     -ms-transform: scale(1.1);
@@ -313,11 +320,10 @@ padding-top: 120px;
 }
 .tcont{
     padding-left: 15px;
-    height: 50px;
     text-align: start;
     border-radius: 10px;
     /* padding: 30px; */
-    /* background-color: blueviolet; */
+    /* background-color: blueviolet;  */
 }
 /* .tcont h5{
     margin-bottom: 10px;
@@ -345,6 +351,9 @@ padding-top: 120px;
     /* background-color: blue; */
     display: flex;
     justify-content: space-evenly;
+}
+.msub2 h3:hover{
+    color: #0071f8;
 }
 .mbox1{
     width: 150px;
