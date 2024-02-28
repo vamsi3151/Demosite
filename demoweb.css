@@ -31,7 +31,7 @@ body{
     display: flex;
     justify-content: space-around;
     position: fixed;
-    background-color: #0071f8 ;
+    background-color: blue;
     border-bottom-left-radius: 30%;
     border-bottom-right-radius: 30%;
     
